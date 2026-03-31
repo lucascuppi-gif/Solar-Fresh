@@ -10,6 +10,10 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 img {
   max-width: 100%;
   object-fit: cover;
@@ -519,6 +523,10 @@ footer {
         transform: scaleY(1) translateY(0);
       }
     }
+  }
+  .menu li a:hover {
+    background: transparent;
+    border-radius: 12px;
   }
   .hero-img {
     justify-content: center;
