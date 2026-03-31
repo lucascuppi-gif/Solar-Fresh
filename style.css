@@ -664,6 +664,7 @@ footer {
   .footer-link a {
     display: flex;
     align-items: center;
+    font-size: 12px;
     gap: 8px;
   }
   .direitos-footer {
